@@ -8,7 +8,7 @@ contract TokenTest is Test {
     Token token;
 
     function setUp() public {
-        token = new Token(1000);
+        token = new Token(address(this), "TestToken", "TT", 1000);
     }
 
     function testTransferSuccess() public {
