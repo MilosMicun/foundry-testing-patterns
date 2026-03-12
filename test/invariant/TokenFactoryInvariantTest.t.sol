@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
-import "forge-std/Test.sol";
+import {Test} from "forge-std/Test.sol";
 import {StdInvariant} from "forge-std/StdInvariant.sol";
 import {TokenFactory} from "../../src/TokenFactory.sol";
 import {TokenFactoryHandler} from "./TokenFactoryHandler.t.sol";

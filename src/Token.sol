@@ -9,7 +9,7 @@ contract Token {
     uint256 public totalSupply;
     string public name;
     string public symbol;
-    uint8 public constant decimals = 18;
+    uint8 public constant DECIMALS = 18;
 
     event Transfer(address indexed from, address indexed to, uint256 amount);
 
