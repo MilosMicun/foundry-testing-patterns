@@ -1,5 +1,7 @@
 # Foundry Testing Patterns
 
+![Tests](https://github.com/MilosMicun/foundry-testing-patterns/actions/workflows/test.yml/badge.svg)
+
 A Solidity project demonstrating **professional smart contract testing strategies using Foundry**.
 
 This repository focuses on **testing architecture and methodology**, not protocol complexity.
